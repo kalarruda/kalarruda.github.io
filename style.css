@@ -1,11 +1,21 @@
 body{
-    background-color: #DEDBD2;
+    background-color: white;
     font-family: Montserrat, "sans-serif";
 }
 
 .nome{
     
     font-weight: bolder;
+}
+
+.imagem{
+    border-radius: 10px;
+}
+
+#sobre{
+    background-color: #DEDBD2;
+    padding: 20px ;
+    font-weight: bold;
 }
 
 a{
