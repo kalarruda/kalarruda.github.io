@@ -1,21 +1,61 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
 body{
     background-color: white;
     font-family: Montserrat, "sans-serif";
 }
 
-.nome{
-    
-    font-weight: bolder;
+.header-content{
+    text-align: center;
+    margin-top: 70px;
+    /* margin:0 auto; errado pois é texto*/
 }
 
-.imagem{
-    border-radius: 10px;
+.nome{    
+    color: #128a5c;
 }
+
+.ola{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.principal{
+    /* text-align: center; */
+    /* display: inline-flex; */
+
+}
+
+.principal-content{
+    display: inline-block;    
+    margin: 0 auto;
+    
+}
+
+.foto{
+    border-radius: 50%;
+}
+
+.principal-text{
+    display: inline-block;
+    text-align: center;
+}
+
+/* .teste{
+    margin: 0 auto;
+    display:block;
+} */
 
 #sobre{
     background-color: #DEDBD2;
     padding: 20px ;
+    top: 0;
     font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
 }
 
 a{
