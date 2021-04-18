@@ -8,15 +8,43 @@ body{
     font-family: Montserrat, "sans-serif";
 }
 
-.header-content{
+.header{
     text-align: center;
-    margin-top: 70px;
+}
+
+.header-cabecalho{
+    padding: 20px 0;
+    margin-top: 0;
+    background-color:#128a5c ;
+    width: 100%;
+    z-index: 1;
+    /* position: fixed; */
+}
+
+.header-content h1 { 
+    text-align: center;
+    position: relative;
+    margin-top: 50px;
     /* margin:0 auto; errado pois é texto*/
 }
 
+.header-cabecalho a{
+    text-decoration: none;
+    padding: 15px 30px;
+    color: white;    
+    text-transform: uppercase;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 200px;
+    transition: 0.5s all;
+}
+
+a:hover{
+    color: #052a1c;    
+}
+
 .nome{    
-    color: #128a5c;
-    
+    color: #419c79; 
 }
 
 .ola{
@@ -36,6 +64,8 @@ body{
 
 .foto{
     border-radius: 50%;
+    margin-top: 20px;
+    width: 380px;
 }
 
 .principal-text{
@@ -48,6 +78,13 @@ body{
 
 .principal-text p {
     margin-bottom: 20px;
+    line-height: 2em;
+}
+
+.texto-destaque{
+    font-weight: bold;
+    color: #419c79;
+    font-size: 18px;
 }
 
 .principal-text h2 {
@@ -59,6 +96,40 @@ body{
     vertical-align: top;
 } */
 
+.conteudo-lista{
+    color: #419c79;
+    margin: 20px 0 100px 250px;    
+}
+
+.conteudo-lista h2{
+    font-size: 2em;
+    color: #419c79;
+    margin-top: 80px;
+}
+
+
+.conteudo-lista li{
+    font-size: 20px;
+    list-style: none;
+    margin: 20px 0 20px 0;
+    color: #7d8581;
+}
+
+.conteudo-lista a{
+    color: #7d8581;
+    text-decoration: none;
+    transition: 0.3s all;
+}
+
+.conteudo-lista a:hover{
+    color: #052a1c;
+}
+
+.conteudo-lista h3{
+    margin-top: 20px;
+    font-size: 25px;
+}
+
 #sobre{
     background-color: #DEDBD2;
     padding: 20px ;
@@ -66,16 +137,6 @@ body{
     font-weight: bold;
     text-transform: uppercase;
     display: inline-block;
-}
-
-a{
-    text-decoration: none;
-    background-color: #A6B4B5;
-    padding: 15px 30px;
-    color: white;
-    border-radius: 5px;
-    margin-right: 10px;
-    margin-bottom: 200px;
 }
 
 .paragrafo{
