@@ -1,21 +1,142 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
 body{
-    background-color: #DEDBD2;
+    background-color: white;
     font-family: Montserrat, "sans-serif";
 }
 
-.nome{
-    
-    font-weight: bolder;
+.header{
+    text-align: center;
 }
 
-a{
+.header-cabecalho{
+    padding: 20px 0;
+    margin-top: 0;
+    background-color:#128a5c ;
+    width: 100%;
+    z-index: 1;
+    /* position: fixed; */
+}
+
+.header-content h1 { 
+    text-align: center;
+    position: relative;
+    margin-top: 50px;
+    /* margin:0 auto; errado pois é texto*/
+}
+
+.header-cabecalho a{
     text-decoration: none;
-    background-color: #A6B4B5;
     padding: 15px 30px;
-    color: white;
+    color: white;    
+    text-transform: uppercase;
     border-radius: 5px;
     margin-right: 10px;
     margin-bottom: 200px;
+    transition: 0.5s all;
+}
+
+a:hover{
+    color: #052a1c;    
+}
+
+.nome{    
+    color: #419c79; 
+}
+
+.ola{
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+    font-size: 2em;  
+}
+
+.principal{
+    text-align: center;
+    
+}
+
+.principal-content{
+    display: inline-block;    
+    margin: 50px 20px 50px 0px; 
+}
+
+.foto{
+    border-radius: 50%;
+    margin-top: 20px;
+    width: 380px;
+}
+
+.principal-text{
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    margin: 50px 0 50px 20px;
+    width: 30%;
+}
+
+.principal-text p {
+    margin-bottom: 20px;
+    line-height: 2em;
+}
+
+.texto-destaque{
+    font-weight: bold;
+    color: #419c79;
+    font-size: 18px;
+}
+
+.principal-text h2 {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+/* .principal-text p {
+    vertical-align: top;
+} */
+
+.conteudo-lista{
+    color: #419c79;
+    margin: 20px 0 100px 250px;    
+}
+
+.conteudo-lista h2{
+    font-size: 2em;
+    color: #419c79;
+    margin-top: 80px;
+}
+
+
+.conteudo-lista li{
+    font-size: 20px;
+    list-style: none;
+    margin: 20px 0 20px 0;
+    color: #7d8581;
+}
+
+.conteudo-lista a{
+    color: #7d8581;
+    text-decoration: none;
+    transition: 0.3s all;
+}
+
+.conteudo-lista a:hover{
+    color: #052a1c;
+}
+
+.conteudo-lista h3{
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+#sobre{
+    background-color: #DEDBD2;
+    padding: 20px ;
+    top: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
 }
 
 .paragrafo{
