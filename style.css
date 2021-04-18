@@ -16,23 +16,22 @@ body{
 
 .nome{    
     color: #128a5c;
-}
-
-.ola{
-    font-family: Georgia, 'Times New Roman', Times, serif;
     
 }
 
-.principal{
-    /* text-align: center; */
-    /* display: inline-flex; */
+.ola{
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+    font-size: 2em;  
+}
 
+.principal{
+    text-align: center;
+    
 }
 
 .principal-content{
     display: inline-block;    
-    margin: 0 auto;
-    
+    margin: 50px 20px 50px 0px; 
 }
 
 .foto{
@@ -41,12 +40,23 @@ body{
 
 .principal-text{
     display: inline-block;
-    text-align: center;
+    vertical-align: top;
+    text-align: left;
+    margin: 50px 0 50px 20px;
+    width: 30%;
 }
 
-/* .teste{
-    margin: 0 auto;
-    display:block;
+.principal-text p {
+    margin-bottom: 20px;
+}
+
+.principal-text h2 {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+/* .principal-text p {
+    vertical-align: top;
 } */
 
 #sobre{
