@@ -101,6 +101,9 @@ a:hover{
   width: 100%;
 }
 
+
+
+
 .conteudo-lista{
   color: #419c79;
   text-align: center;  
@@ -222,3 +225,17 @@ ul{
 footer {
   height: 100px;
 }
+
+/* #projects li {
+  font-weight: bolder;
+  font-size: 25px;
+  color:#0b5e3e;
+  list-style: square;
+}
+
+#projects li a {
+  font-weight: bolder;
+  font-size: 25px;
+  color:rebeccapurple;
+  list-style: square;
+} */
