@@ -96,17 +96,21 @@ a:hover{
     vertical-align: top;
 } */
 
+
+.content {
+  width: 100%;
+}
+
 .conteudo-lista{
-    color: #419c79;
-    margin: 20px 0 100px 250px;    
+  color: #419c79;
+  text-align: center;  
 }
 
 .conteudo-lista h2{
-    font-size: 2em;
-    color: #419c79;
-    margin-top: 80px;
+  font-size: 2em;
+  color: #419c79;
+  margin-top: 20px;
 }
-
 
 .conteudo-lista li{
     font-size: 20px;
@@ -126,7 +130,7 @@ a:hover{
 }
 
 .conteudo-lista h3{
-    margin-top: 20px;
+    margin: 20px;
     font-size: 25px;
 }
 
@@ -147,9 +151,74 @@ a:hover{
 .nacionalidade{
     font-size: 20px;
     font-weight: bold;
-
 }
 
 ul{
     font-weight: 700;
+}
+#align-itens {
+  display: flex;   
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#social-medias {
+  margin-top: 20px;
+  display: flex;
+}
+
+#social-medias li{
+  padding: 0 50px;
+}
+
+#social-medias i{
+  font-size: 50px;
+  transition: 0.3s all;
+}
+
+.bi-whatsapp:hover {
+  color: rgb(37 211 102);
+}
+
+.bi-linkedin:hover {
+  color: rgb(14, 118, 168);
+}
+
+.bi-facebook:hover {
+  color: rgb(66 103 178);
+}
+
+#content-current-knowleges {
+  margin-top: 10px;
+  display: flex;   
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#current-knowleges {
+  display: flex;
+}
+
+#current-knowleges li{
+  vertical-align: middle;
+  align-self: center;
+  padding: 0 20px;
+}
+
+#javascript {
+  width: 70px;
+}
+
+#content-future-knowleges {
+  margin-top: 10px;
+  display: flex;   
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+footer {
+  height: 100px;
 }

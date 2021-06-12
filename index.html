@@ -8,13 +8,15 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css"
     href="style.css">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <title>Portfólio José Carlos</title>
 </head>
 <body>
     <div class="header">
         <div class="header-cabecalho">
             <h3>
-                <a href="#foto">Foto</a> 
+                <a href="#foto">Projetos</a> 
                 <a href="#sobre">Sobre</a> 
                 <a href="#redes">Redes Sociais</a>
                 <a href="#habilidades">Habilidades</a>
@@ -22,7 +24,7 @@
         </div>
         
         <div class="header-content">
-            <h1 class="nome"><em class="ola">Olá,</em> Meu nome é José Carlos Ávila Arruda</h1>
+            <h1 class="nome"><em class="ola">Olá,</em><em> eu sou o José Carlos Ávila Arruda</em> </h1>
         </div>  
         <div class="principal">    
                    
@@ -30,7 +32,7 @@
                     <img class="foto" src="./images/IMG_2127.JPG" width="300px" alt="foto jose carlos" id="foto">                  
                 </div>
                 <div class="principal-text">
-                    <h2>Sobre</h2>
+                    <h2>Sobre mim</h2>
                     <p>Formado em Design pela Universidade Federal do Rio de Janeiro - UFRJ - e atualmente cursando Análise e Desenvolvimento de Sistemas na universidade Positivo, estou sempre em busca de novos conhecimentos e aprimoramentos. Comecei na área como designer de produto porém aos poucos fui ingressando na área de designer gráfico e web designer que se demonstravam mais promissoras e trabalhos mais frequentes.
                     </p>
                     <p class="texto-destaque">Formado em Desenho Industrial pela URFJ  | Projetista | Web Designer 
@@ -40,28 +42,68 @@
         </div>
         
     </div>
-    <div>
+    <div class="content">
         <div class="conteudo-lista" id="redes">
-            <h2>Redes Sociais</h2>
+          <h2>Projetos</h2>
             <ul>
-                <li><a href="http://www.kalarruda.com.br/" target="_blank">Site Pessoal</a> </li>
-                <li><a href="https://www.linkedin.com/in/jose-carlos-arruda-63826250/" target="_blank">Linkedin</a></li>
-            </ul>   
-                <h2 >Habilidades que mais me orgulho</h2>
+                <li><a href="projetos/pixels_art">Pixels Art</a></li> 
+                <li><a href="projetos/to-do-list">To do List</a></li>               
+            </ul>
+            <h2>Redes Sociais</h2>
+            <section id="align-itens"> 
+              <ul id="social-medias">
+                <!-- <li><a href="http://www.kalarruda.com.br/" target="_blank">Site Pessoal</a> </li> -->
+                <li>
+                  <a href=https://github.com/kalarruda target="_blank">
+                    <i class="bi bi-github"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://api.whatsapp.com/send?phone=5541999039226" target="_blank">
+                    <i class="bi bi-whatsapp"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/jose-carlos-arruda-63826250/" target="_blank">
+                    <i class="bi bi-linkedin"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.facebook.com/kal.arruda/" target="_blank">
+                    <i class="bi bi-facebook"></i>
+                  </a>
+                </li>
+              </ul>
+            </section>
+            
+                <h2 >Habilidades SoftSkills</h2>
                 <ul id="habilidades">
                     <li>Proativo</li> 
                     <li>Empatia</li> 
                     <li>Empenhado</li> 
                 </ul>
-            <h2>Conhecimentos</h2>
-            <ul>
-                <li>Inglês</li> 
-                <li>HTML</li> 
-                <li>CSS</li> 
-                <li>Python</li> 
-                <li>CSharp</li> 
-            </ul>
-        </div>   
-    </div>      
-</body>
+            <h2>Conhecimentos Atuais</h2>
+            <section id="content-current-knowleges">
+              <ul id="current-knowleges">
+                <li><img  src="./images/english.png" alt="icone-english"></li>
+                <li><img id="javascript" src="./images/javascript2.png" alt="icone-javascript"></li>
+                <li><img src="./images/html5.png" alt="icone-html5"></li> 
+                <li><img src="./images/css.png" alt="icone-css3"></li>                
+              </ul>
+            </section>
+            <h2>Conhecimentos a Adquirir</h2>
+            <section id="content-future-knowleges">
+              <ul id="current-knowleges">
+                <li><img src="./images/icons8-python-96.png" alt="icone-python"></li>
+                <li><img id="javascript" src="./images/banco_de_dados.png" alt="icone-banco_dados"></li>
+                <li><img src="./images/react.png" alt="icone-react"></li>
+                <li></li> 
+              </ul>
+            </section>
+          </div>   
+      </div>
+      <footer>
+
+      </footer>     
+  </body>
 </html>
