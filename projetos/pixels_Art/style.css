@@ -1,0 +1,64 @@
+body {
+  margin-left: 0;
+  padding-left: 50px;
+  background-image:url(imagem/pixel_art.jpeg);
+}
+
+#title {
+  font-size: 30px;
+}
+
+#color-palette {
+  padding: 20px 0 0;
+}
+
+#paleta {
+  margin: 0 auto;
+  text-align: center;
+  width: fit-content;
+  padding: 50px 20px;
+  border-radius: 20px;
+  background-color: white;
+  margin-bottom: 0;
+  box-shadow:lightslategrey 5px 5px 20px ;
+}
+
+.color {
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+  border: solid 1px black;
+  display: inline-block;
+}
+
+.pixel {
+  height: 40px;
+  width: 40px;
+  border: solid 1px black;
+  display: inline-block;
+  margin-bottom: -4px;
+  background-color: white;
+}
+
+#clear-board {
+  padding: 8px;
+  margin: 30px 0 30px;
+  font-size: 15px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+#generate-board {
+  padding: 8px;
+  margin: 30px 0 30px;
+  font-size: 15px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+#board-size {
+  padding: 8px;
+  margin: 0 10px;
+  text-align: center;
+  width: 50px;
+}
