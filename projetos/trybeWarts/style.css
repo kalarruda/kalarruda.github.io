@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: Rye, cursive;
+}
+
+body {
+  background-color: rgba(232, 232, 232);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(50, 167, 145);
+  height: 100px;
+  align-items: center;
+}
+
+.header h1 {
+  color: whitesmoke;
+}
+
+.trybewarts-login {
+  display: flex;
+  align-items: center;
+}
+
+.trybewarts-header-logo {
+  width: 70px;
+}
+
+.trybewarts-login input {
+  margin-left: 10px;
+  padding: 10px;
+  width: 130px;
+  border-radius: 10px;
+}
+
+main {
+  display: flex;
+}
+
+.trybewarts-login button {
+  margin-left: 10px;
+  width: 100px;
+}
+
+#evaluation-form {
+  display: flex;
+  flex-direction: column;
+  width: 675px;
+}
+
+#evaluation-form h1 {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#trybewarts-forms-logo {
+  width: 700px;
+}
+
+#first-container input {
+  border-radius: 8px;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+#first-container label {
+  margin-left: 10px;
+}
+
+#section-name , #section-email-houses {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+#house-type {
+  display: flex;
+  align-items: center;
+}
+
+#house {
+  min-width: 282px;
+}
+
+#images-position {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#submit-btn {
+  width: 100%;
+}
+
+#family-type-content-learn {
+  display: flex;
+  justify-content: space-between;
+}
+
+#family-type {
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+  min-height: 150px;
+  justify-content: space-around;
+}
+
+#family-type #label-family {
+  margin-bottom: 10px;
+}
+
+#family-type input {
+  margin-right: 9px;
+}
+
+#toLearn {
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+  min-height: 150px;
+  justify-content: space-around;
+}
+
+#toLearn #label-content {
+  margin-bottom: 10px;
+}
+
+.toLearn-opts {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+}
+
+#learn-content {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(192, 206, 203);
+}
+
+#learn-checkbox {
+  flex-flow: row wrap;
+}
+
+.subject {
+  margin-left: 20px;
+}
+
+#input-text {
+  border: solid black 1px;
+  resize: none;
+
+}
+
+.form-check-label {
+  margin-left: 9px;
+}
+
+#label-infos {
+  margin-bottom: 20px;
+}
+
+footer {
+  display: flex;
+  background-color: darkslategray;
+  color: whitesmoke;
+  justify-content: center;
+  margin-top: 65px;
+}
+
+footer p {
+  margin: 0;
+  padding: 10px;
+}
+
+#counter {
+  float: right;
+}
+
+#show-result {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+
+#show-result ul li:first-child {
+  margin-top: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+@media screen and ( max-width : 1378px ) {
+
+  #trybewarts-forms-logo {
+    display: none;
+  }
+}
