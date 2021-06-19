@@ -10,6 +10,9 @@ const btnSearch = document.querySelector('#btn-search');
 const inputText = document.querySelector('#search');
 let items = document.querySelector('.items');
 // 5 requisito abaixo ----------------------------------------------------------
+const cleanItems = () => {
+  items.innerHTML = '';
+}
 
 function createProductImageElement(imageSource) {
   const img = document.createElement('img');
@@ -144,11 +147,11 @@ let search = 'computador';
 
 const fetchML = async (product) => {  
   loadingAppear();
-  const itens = document.querySelector('.items');
+  // const itens = document.querySelector('.items');
   const response = await fetch(firstAPI(product));
   const apiJson = await response.json();
   const array = await apiJson.results;  
-  await array.forEach((item) => itens.appendChild(createProductItemElement(item)));  
+  await array.forEach((item) => items.appendChild(createProductItemElement(item)));  
   addCart();  
   loadingDesapear();  
 };
@@ -183,6 +186,7 @@ const searchProduct = () => {
     const itemSearch = inputText.value;
     console.log(firstAPI(itemSearch));
     search = itemSearch;
+    cleanItems();
     fetchML(search);
     inputText.value = '';
   });
